@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* Public route */}
-        <Route path="/loginPage" element={<LoginPage />} />
+        <Route path="/LoginPage" element={<LoginPage />} />
 
         {/* Protected routes */}
         <Route
@@ -29,7 +29,7 @@ function App() {
         />
 
         <Route
-          path="/projectsPage"
+          path="/ProjectsPage"
           element={
             <>
               <Navbar />
@@ -40,7 +40,7 @@ function App() {
           }
         />
         <Route
-        path="/projects/:projectId/tasks"
+        path="/Projects/:projectId/Tasks"
         element={
         <PrivateRoute>
           <>

@@ -18,7 +18,7 @@ const PrivateRoute: React.FC<Props> = ({ children }) => {
 
   if (isAuth === null) return <div>Loading...</div>;
 
-  return isAuth ? <>{children}</> : <Navigate to="/loginPage" replace />;
+  return isAuth ? <>{children}</> : <Navigate to="/LoginPage" replace />;
 };
 
 export default PrivateRoute;

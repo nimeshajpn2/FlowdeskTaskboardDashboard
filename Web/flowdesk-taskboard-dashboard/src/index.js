@@ -9,6 +9,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.bundle.js"
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import { faUsers, faTasks, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

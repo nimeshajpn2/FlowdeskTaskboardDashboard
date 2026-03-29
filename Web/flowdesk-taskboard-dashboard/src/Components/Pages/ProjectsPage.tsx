@@ -83,7 +83,7 @@ const ProjectsPage: React.FC = () => {
   };
 
   const viewTasks = (projectId: number) => {
-    navigate(`/projects/${projectId}/tasks`);
+    navigate(`/Projects/${projectId}/Tasks`);
   };
 
   const resetForm = () => {

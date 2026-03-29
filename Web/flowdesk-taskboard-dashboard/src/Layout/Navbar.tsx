@@ -28,13 +28,13 @@ const Navbar: React.FC = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/projectsPage">
+              <NavLink className="nav-link" to="/ProjectsPage">
                   Projects
               </NavLink>
             </li>
             {!isLoggedIn && (
               <li className="nav-item">
-                <NavLink className="nav-link" to="/loginPage">
+                <NavLink className="nav-link" to="/LoginPage">
                   Logout
                 </NavLink>
               </li>
