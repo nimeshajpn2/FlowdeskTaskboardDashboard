@@ -2,7 +2,7 @@ export interface RegisterViewModel {
   userName: string;
   email: string;
   password: string;
-  role?: string;
+  role: string ;
 }
 
 export interface LoginViewModel {
